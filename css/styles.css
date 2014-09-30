@@ -35,7 +35,20 @@
 .channel {
 	font-family: 'channelregular';
 }
+.ciudadDeMexico {
+	font-size: 2em;
+	line-height: 2em;
+}
+.fontSize3em {
+	font-size: 3em;
+}
+.fontSize3em {
+	font-size: 3em;
+}
 /* Colores MexiCoolTour*/
+.yellow {
+	color: yellow;
+}
 .rojomexicooltour {
 	color: red !important;
 }
@@ -359,6 +372,15 @@ Hero
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 /* ==========================================================================
+Hero2
+========================================================================== */
+.hero2 { background: url('../img/tours.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.hero2 h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; }
+.hero2 h1 span { color: #a1a9b0; display: inline-block; }
+.hero2 p { letter-spacing: 1px; }
+.learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
+.learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
+/* ==========================================================================
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
@@ -381,6 +403,14 @@ Swag
 .swag { background: url('../img/MexiCoolTour-dark.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
+.down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(170, 198, 107, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
+.down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(44, 111, 59, 1); }
+/* ==========================================================================
+Swag2
+========================================================================== */
+.swag2 { background: url('../img/tours.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.swag2 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.swag2 h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(170, 198, 107, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(44, 111, 59, 1); }
 /* ==========================================================================
@@ -461,4 +491,6 @@ Waypoints
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+.delay-1-05s { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
+.delay-2s { animation-delay: 2s; -webkit-animation-delay: 2s; }
 .wp3 { background: url('../img/pozole-mexicooltour.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
