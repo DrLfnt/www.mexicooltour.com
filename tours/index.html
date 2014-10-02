@@ -49,6 +49,7 @@
 	<meta name="twitter:domain" content="http://disain.co/">
 	<!-- Twitter Card -->
 	<!-- Contenido -->
+	<script src="../js/modernizr.js"></script>
 	<!-- Analytics -->
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -72,6 +73,7 @@
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
 	<link href="../css/flexslider.css" rel="stylesheet" />
 	<link href="../css/styles.css" rel="stylesheet" />
+	<link href="../css/lightbox.css" rel="stylesheet" />
 	<link href="../css/queries.css" rel="stylesheet" />
 	<link href="../css/animate.css" rel="stylesheet" />
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -140,61 +142,6 @@
 				</div>
 			</section>
 		</header>
-		<section class="hidden features text-center section-padding">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 fontSize3em">
-						<div class="features-wrapper">
-							<h3 class="harbell-h1"><span class="wp2 delay-05s verdeclaro">Atrevete</span><br />
-								<span class="wp2 delay-1s verdemedio">Explora</span><br />
-								<span class="wp2 delay-1-05s verdeobscuro">Conoce</span></h3>
-						</div>
-						<div class="features-wrapper channel wp2 delay-05s">
-							<h3 class="fontSize3em"><span class="verdemedio">Mé</span>xi<span class="rojomexicooltour">co</span></h3>
-						</div>
-						<div class="features-wrapper channel wp2 delay-1s">
-							<h3>Pasión en Movimiento</h3>
-						</div>
-						<div class="features-wrapper wp2 delay-1-05s harbell">
-							<h3>Déjate enamorar por la historia de una <br> nación y enriquece tu espíritu <br> con el encanto de la vibrante <br><br> <span class="channel rojomexicooltour">Ciudad de México</span><br><br> y su mágico entorno</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="hidden features text-center section-padding" id="features">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1 class="arrow"><span class="verdeobscuro">Ama lo que haces, y te irá bien.</span></h1>
-						<div class="features-wrapper">
-							<div class="col-md-4 wp2">
-								<div class="icon box-fx-3d">
-									<i class="fa fa-plane fx-3d"></i>
-								</div>
-								<h2>Viaja</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-							</div>
-							<div class="col-md-4 wp2 delay-05s">
-								<div class="icon box-fx-3d">
-									<i class="fa fa-bus fx-3d"></i>
-								</div>
-								<h2>Descubre</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-							</div>
-							<div class="col-md-4 wp2 delay-1s">
-								<div class="icon box-fx-3d">
-									<i class="fa fa-bicycle fx-3d"></i>
-								</div>
-								<h2>Disfruta</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 		<section class="swag text-center">
 			<div class="container">
 				<div class="row">
@@ -212,43 +159,40 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wp4">
-							<div class="overlay-effect effects clearfix">
-								<div class="img br-2em">
-									<img src="../img/portafolio-centro-historico.jpg" alt="Tours">
-									<div class="overlay">
-										<a href="#" class="expand"><i class="fa fa-search"></i><br>Ver más</a>
-										<a class="close-overlay hidden">x</a>
-									</div>
-								</div>
-							</div>
-							<h2 id="centroHistorico">Centro Histórico</h2>
-							<p>La Ciudad de México, conocida también como "La ciudad de los palacios" y otrora capital del virreinato de la Nueva España; es una vibrante megalopolis, hogar de 22 millones de habitantes, fundada por los Aztecas en el siglo XIV y considerada la más antigua de América del norte.</p>
+							<figure>
+								<a class="zoom" href="../img/tours.jpg" data-lightbox="tours" data-title="Centro Historico">
+									<img class="img-responsive br-2em" src="../img/portafolio-centro-historico.jpg" alt="Tours"/>
+								</a>
+								<figcaption>
+									<h2 id="centroHistorico">Centro Historico</h2>
+									<p>La Ciudad de México, conocida también como "La ciudad de los palacios" y otrora capital del virreinato de la Nueva España; es una vibrante megalopolis, hogar de 22 millones de habitantes, fundada por los Aztecas en el siglo XIV y considerada la más antigua de América del norte.</p>
+									<a href="#" class="btn btn-lg btn-success">ver mas</a>
+								</figcaption>
+							</figure>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wp4">
-							<div class="overlay-effect effects clearfix">
-								<div class="img br-2em">
-									<img src="../img/portafolio-recuerdos.jpg" alt="Tours">
-									<div class="overlay">
-										<a href="#" class="expand"><i class="fa fa-search"></i><br>Ver más</a>
-										<a class="close-overlay hidden">x</a>
-									</div>
-								</div>
-							</div>
-							<h2 id="mexicoDeMisRecuerdos">México de mis recuerdos</h2>
-							<p>Enclavado en el bosque de Chapultepec se encuentra el cementerio más importante de México: La Rotonda de los hombres y mujeres ilustres. Este osario alberga las tumbas de personalidades, tales como: Diego Rivera, David Alfaro Siqueiros, José Clemente Orozco, etcétera.</p>
+							<figure>
+								<a href="../img/tours.jpg" data-lightbox="tours" data-title="México de mis Recuerdos">
+									<img class="img-responsive br-2em" src="../img/portafolio-recuerdos.jpg" alt="Tours"/>
+								</a>
+								<figcaption>
+									<h2 id="mexicoDeMisRecuerdos">México de mis recuerdos</h2>
+									<p>Enclavado en el bosque de Chapultepec se encuentra el cementerio más importante de México: La Rotonda de los hombres y mujeres ilustres. Este osario alberga las tumbas de personalidades, tales como: Diego Rivera, David Alfaro Siqueiros, José Clemente Orozco, etcétera.</p>
+									<a href="#" class="btn btn-lg btn-success">ver mas</a>
+								</figcaption>
+							</figure>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 wp4">
-							<div class="overlay-effect effects clearfix">
-								<div class="img br-2em">
-									<img src="../img/portafolio-xochimilco-y-coyoacan.jpg" alt="Tours">
-									<div class="overlay">
-										<a href="#" class="expand"><i class="fa fa-search"></i><br>Ver más</a>
-										<a class="close-overlay hidden">x</a>
-									</div>
-								</div>
-							</div>
-							<h2 id="xochimilcoCoyoacan">Xochimilco y Coyoacán</h2>
-							<p>Coyoacan, sin lugar a dudas es uno de los barrios más tradicionales y románticos de la capital. Dejate cautivar por sus secretos mejor guardados, a través de sus antiguas construcciones como: la Casa Azul, la casa de Hernán Córtes y la Iglesia de San Juan Bautista.</p>
+							<figure>
+								<a href="../img/tours.jpg" data-lightbox="tours" data-title="Xochimilco y Coyoacán">
+									<img class="img-responsive br-2em" src="../img/portafolio-xochimilco-y-coyoacan.jpg" alt="Tours"/>
+								</a>
+								<figcaption>
+									<h2 id="xochimilcoCoyoacan">Xochimilco y Coyoacán</h2>
+									<p>Coyoacan, sin lugar a dudas es uno de los barrios más tradicionales y románticos de la capital. Dejate cautivar por sus secretos mejor guardados, a través de sus antiguas construcciones como: la Casa Azul, la casa de Hernán Córtes y la Iglesia de San Juan Bautista.</p>
+									<a href="#" class="btn btn-lg btn-success">ver mas</a>
+								</figcaption>
+							</figure>
 						</div>
 					</div>
 					<div class="col-md-12">
@@ -398,6 +342,6 @@
 		<script src="../js/bootstrap.min.js"></script>
 		<script src="../js/scripts.js"></script>
 		<script src="../js/jquery.flexslider.js"></script>
-		<script src="../js/modernizr.js"></script>
+		<script src="../js/lightbox.js"></script>
 	</body>
 </html>
