@@ -73,7 +73,7 @@ ul li {
 }
 /* Colores MexiCoolTour*/
 .yellow {
-	color: yellow;
+	color: yellow !important;
 }
 .rojomexicooltour {
 	color: red !important;
@@ -88,10 +88,10 @@ ul li {
 	color: #1bc11b !important ;
 }
 .white {
-	color: #fff;
+	color: #fff !important;
 }
 .bg-white {
-	background: #fff;
+	background: #fff !important;
 }
 .bg-verdeobscuro {
 	background: #003b20 !important ;
@@ -103,7 +103,7 @@ ul li {
 	background: #1bc11b !important ;
 }
 .bg-rojomexicooltour {
-	background: red;
+	background: red !important;
 }
 .br-2em {
 	border-radius: 2em;
