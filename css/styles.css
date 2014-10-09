@@ -22,6 +22,9 @@
     font-style: normal;
 
 }
+iframe {
+	max-width: 100%;
+}
 ul li {
 	list-style: none;
 	text-align: left;
