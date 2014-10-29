@@ -35,6 +35,11 @@ ul li {
 	font-weight: bold;
 	color: #006c34;
 }
+.bolder:hover {
+	font-size: 3em;
+	font-weight: bold;
+	color: #006c34;
+}
 .light {
 	font-weight: lighter;
 }
