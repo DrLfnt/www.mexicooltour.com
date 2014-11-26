@@ -53,6 +53,12 @@ ul li {
 .roboto {
 	font-family: 'roboto';
 }
+.robotoSlabRegular {
+	font-family: 'RobotoSlab-Regular';
+}
+.robotoSlabBold {
+	font-family: 'RobotoSlab-Bold';
+}
 .harbell {
 	font-family: 'harbell_personal_use_onlyRg';
 }
