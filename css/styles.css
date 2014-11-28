@@ -8,7 +8,6 @@
          url('../fonts/channel-webfont.svg#channelregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'harbell_personal_use_onlyRg';
@@ -20,7 +19,6 @@
          url('../fonts/harbell_personal_use-webfont.svg#harbell_personal_use_onlyRg') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 iframe {
 	max-width: 100%;
@@ -50,14 +48,14 @@ ul li {
 .puntoDeEncuentro {
 	border-bottom: 2px dotted red;
 }
+.lobster{
+	font-family: 'Lobster', cursive;
+}
 .roboto {
-	font-family: 'roboto';
+	font-family: 'Roboto', sans-serif;
 }
-.robotoSlabRegular {
-	font-family: 'RobotoSlab-Regular';
-}
-.robotoSlabBold {
-	font-family: 'RobotoSlab-Bold';
+.robotoSlab {
+	font-family: 'Roboto Slab', serif;
 }
 .harbell {
 	font-family: 'harbell_personal_use_onlyRg';
@@ -73,6 +71,9 @@ ul li {
 	font-size: 2em;
 	line-height: 2em;
 }
+.fontSize1em {
+	font-size: 1em;
+}
 .fontSize1-5em {
 	font-size: 1.5em;
 }
@@ -84,6 +85,12 @@ ul li {
 }
 .fontSize3em {
 	font-size: 3em;
+}
+.fontSize3-5em {
+	font-size: 3.5em;
+}
+.colibri::before {
+	content: url(../img/colibri-mexicooltour.png);
 }
 /* Colores MexiCoolTour*/
 .yellow {
@@ -122,6 +129,8 @@ ul li {
 .br-2em {
 	border-radius: 2em;
 }
+
+
 /* Efectos texto y cajas */
 /* Texto */
 .fx-3d {
@@ -371,7 +380,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
-a:hover, a:focus { color: #AAC66B; text-decoration: none; }
+a:hover, a:focus { color: #006832; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #006c34; display: block; width: 35px; margin: 25px auto; }
@@ -380,7 +389,7 @@ h2::after { content: " "; border: solid 2px #006c34; display: block; width: 35px
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
 .light-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
-.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #AAC66B; -moz-box-shadow: 0px 3px 0px 0px #AAC66B; box-shadow: 0px 3px 0px 0px #AAC66B; }
+.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #006832; -moz-box-shadow: 0px 3px 0px 0px #006832; box-shadow: 0px 3px 0px 0px #006832; }
 .box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
@@ -511,7 +520,7 @@ CTA
 ========================================================================== */
 .ignite-cta { background-color: #223E25; padding: 70px 0; }
 .ignite-btn { display: inline-block; padding: 25px 40px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
-.ignite-btn:hover, .ignite-btn:focus { color: #AAC66B; border: solid 1px #AAC66B; }
+.ignite-btn:hover, .ignite-btn:focus { color: #006832; border: solid 1px #006832; }
 /* ==========================================================================
 Team
 ========================================================================== */
@@ -520,7 +529,7 @@ ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 10px; }
 ul.social-buttons li:last-child { margin-right: 0; }
 .social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #223E25; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
-.social-btn:hover, .social-btn:focus { background: #AAC66B; color: #fff; }
+.social-btn:hover, .social-btn:focus { background: #006832; color: #fff; }
 .social { margin-top: 25px }
 /* ==========================================================================
 Contact
@@ -557,5 +566,10 @@ Waypoints
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .delay-1-05s { animation-delay: 1.5s; -webkit-animation-delay: 1.5s; }
 .delay-2s { animation-delay: 2s; -webkit-animation-delay: 2s; }
+.delay-2-05s { animation-delay: 2.5s; -webkit-animation-delay: 2.5s; }
+.delay-3s { animation-delay: 3s; -webkit-animation-delay: 3s; }
+.delay-3-05s { animation-delay: 3.5s; -webkit-animation-delay: 3.5s; }
+.delay-4s { animation-delay: 4s; -webkit-animation-delay: 4s; }
+.delay-4-05s { animation-delay: 4.5s; -webkit-animation-delay: 4.5s; }
 .delay-5s { animation-delay: 5s; -webkit-animation-delay: 5s; }
 .wp3 { background: url('../img/pozole-mexicooltour.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
