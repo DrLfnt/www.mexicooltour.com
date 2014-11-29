@@ -28,6 +28,14 @@ ul li {
 	text-align: left;
 	font-size: 1.2em;
 }
+.logotipoIndex {
+	position: absolute;
+	margin-top: -830px;
+	margin-left: -130px;
+	width: 40%;
+	opacity: 0.5;
+	z-index: 1000;
+}
 .bold:hover {
 	font-size: 1.1em;
 	font-weight: bold;
