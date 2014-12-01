@@ -29,12 +29,13 @@ ul li {
 	font-size: 1.2em;
 }
 .logotipoIndex {
-	position: absolute;
-	margin-top: -830px;
-	margin-left: -130px;
-	width: 40%;
-	opacity: 0.5;
+	position: static;
+	margin-top: -800px;
+	margin-left: -150px;
+	width: 50%;
+	opacity: 0.75;
 	z-index: 1000;
+	margin-bottom: 500px;
 }
 .bold:hover {
 	font-size: 1.1em;
@@ -580,4 +581,3 @@ Waypoints
 .delay-4s { animation-delay: 4s; -webkit-animation-delay: 4s; }
 .delay-4-05s { animation-delay: 4.5s; -webkit-animation-delay: 4.5s; }
 .delay-5s { animation-delay: 5s; -webkit-animation-delay: 5s; }
-.wp3 { background: url('../img/pozole-mexicooltour.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
