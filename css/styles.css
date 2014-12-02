@@ -98,6 +98,15 @@ ul li {
 .fontSize3-5em {
 	font-size: 3.5em;
 }
+.textAlignLeft {
+	text-align: left;
+}
+.textAlignCenter {
+	text-align: center;
+}
+.textAlignRight {
+	text-align: right;
+}
 .colibri::before {
 	content: url(../img/colibri-mexicooltour.png);
 }
@@ -107,6 +116,9 @@ ul li {
 }
 .rojomexicooltour {
 	color: red !important;
+}
+.gris {
+	color: #353535 !important;
 }
 .verdeobscuro {
 	color: #003b20 !important ;
@@ -390,7 +402,7 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #006832; text-decoration: none; }
-p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
+p { color: #353535; word-spacing: 1px; line-height: 25px; font-size: 18px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #006c34; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
@@ -515,6 +527,10 @@ Subscribe
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
 .subscribe input[type=submit] { background: rgba(170, 198, 107, 0.5); border: solid 1px rgba(170, 198, 107, 0.5); padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .subscribe input[type=submit]:hover { background: rgba(170, 198, 107, 1); border: solid 1px rgba(170, 198, 107, 1); color: #fff; }
+/* ==========================================================================/* ==========================================================================
+Corcho
+========================================================================== */
+.corcho { background: url('../img/corcho.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  padding: 120px 0 140px; height: 550px; margin-bottom: 1em; }
 /* ==========================================================================
 Promocion
 ========================================================================== */
