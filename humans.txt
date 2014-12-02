@@ -13,7 +13,7 @@
 	From: Mexico city, Mexico
 
 /* SITE */
-	Last update: 21/11/2014
+	Last update: 02/12/2014
 	Language: Español / English / Portuguese
 	Standars: HTML5, CSS3, JavaScript.
 	Components: Responsive Design, jQuery, MySQL.
@@ -33,4 +33,4 @@
 	mexicool_wpdb
 	
 	Usuario
-	mexicool_wpadmin kFdL?NFqk[x5
+	administrador mexicooltour.com
