@@ -7,8 +7,8 @@
 	display: table;
 	zoom: 1; 
 	position: relative;
-	width: 100%;
-	max-height:882px;
+	width: auto;
+	max-height:700px;
 	margin:0px auto 0px;
 	z-index:90;
 	text-align:left; /* reset align=center */
@@ -19,7 +19,7 @@
 	-moz-box-sizing: content-box;
 	box-sizing: content-box; 
 }
-* html #wowslider-container1{ width:1024px }
+* html #wowslider-container1{ width:1200px }
 #wowslider-container1 .ws_images ul{
 	position:relative;
 	width: 10000%; 
@@ -49,16 +49,16 @@
 	left:0;
 	top:0;
 	height:100%;
-	max-height:768px;
-	max-width: 100%;
+	max-height:700px;
+	max-width: 1200px;
 	vertical-align: top;
-	border:4px solid #0cad00;
+	border:none;
 	overflow: hidden;
 }
 #wowslider-container1 .ws_images ul a{
 	width:100%;
 	height:100%;
-	max-height:768px;
+	max-height:700px;
 	display:block;
 	color:transparent;
 }
@@ -74,7 +74,7 @@
 	margin:0;
 }
 #wowslider-container1 .ws_images > div > img {
-	max-height:882px;
+	max-height:700px;
 }
 
 #wowslider-container1 .ws_images iframe {
@@ -273,10 +273,10 @@
 
 #wowslider-container1 .ws_pause:hover, #wowslider-container1 .ws_play:hover {
     background-position: 100% 100% !important;
-}/* top right */
+}/* bottom right */
 #wowslider-container1  .ws_bullets {
-    top: 0px;
-    right: 0px;
+    bottom: 0px;
+	right: 0px;
 }
 
 #wowslider-container1 .ws-title{
@@ -307,75 +307,20 @@
 }
 #wowslider-container1 .ws-title span{
 	font-size: 2.6em;
-}#wowslider-container1  .ws_thumbs { 
-	overflow:auto;
-	/*z-index:60;*/
+}#wowslider-container1 .ws_images > ul{
+	animation: wsBasic 574s infinite;
+	-moz-animation: wsBasic 574s infinite;
+	-webkit-animation: wsBasic 574s infinite;
 }
-#wowslider-container1 .ws_thumbs img{
-	text-decoration: none;
-	border: 0;
-	width: 100%;
-}
-#wowslider-container1 .ws_thumbs a {
-	position:relative;
-	text-indent: -4000px; 
-	color:transparent;
-	opacity:0.85;
-	text-decoration: none;
-	display: inline-block;
-	border: 0;
-	margin:0.13%;
-	text-indent:0;
-	padding: 0.18%;
-	width: 4.38%;
-	max-width: 100px;
-}
-#wowslider-container1 .ws_thumbs a:hover{
-	opacity:1;
-}
-#wowslider-container1 .ws_thumbs a:hover img{
-	visibility:visible;
-}
-#wowslider-container1 .ws_images,
-#wowslider-container1 .ws_shadow {
-	margin-bottom: 12.9em;
-}
-#wowslider-container1  .ws_thumbs {
-    position: absolute;
-    text-align: left;
-
-    bottom: 0;
-    left: 0;
-	width:100%;
-	height: 12.9em;
-}
-#wowslider-container1  .ws_thumbs div{
-	position:relative;
-	letter-spacing:-4px;
-	width:258em;
-	height: 100%;
-}#wowslider-container1 .ws_thumbs a.ws_selthumb{
-    background-color: #FFFFFF;
-}
-
-#wowslider-container1 .ws_thumbs  a{
-    background-color:#0CAD00;
-}
-
-#wowslider-container1 .ws_images > ul{
-	animation: wsBasic 80s infinite;
-	-moz-animation: wsBasic 80s infinite;
-	-webkit-animation: wsBasic 80s infinite;
-}
-@keyframes wsBasic{0%{left:-0%} 2.5%{left:-0%} 5%{left:-100%} 7.5%{left:-100%} 10%{left:-200%} 12.5%{left:-200%} 15%{left:-300%} 17.5%{left:-300%} 20%{left:-400%} 22.5%{left:-400%} 25%{left:-500%} 27.5%{left:-500%} 30%{left:-600%} 32.5%{left:-600%} 35%{left:-700%} 37.5%{left:-700%} 40%{left:-800%} 42.5%{left:-800%} 45%{left:-900%} 47.5%{left:-900%} 50%{left:-1000%} 52.5%{left:-1000%} 55%{left:-1100%} 57.5%{left:-1100%} 60%{left:-1200%} 62.5%{left:-1200%} 65%{left:-1300%} 67.5%{left:-1300%} 70%{left:-1400%} 72.5%{left:-1400%} 75%{left:-1500%} 77.5%{left:-1500%} 80%{left:-1600%} 82.5%{left:-1600%} 85%{left:-1700%} 87.5%{left:-1700%} 90%{left:-1800%} 92.5%{left:-1800%} 95%{left:-1900%} 97.5%{left:-1900%} }
-@-moz-keyframes wsBasic{0%{left:-0%} 2.5%{left:-0%} 5%{left:-100%} 7.5%{left:-100%} 10%{left:-200%} 12.5%{left:-200%} 15%{left:-300%} 17.5%{left:-300%} 20%{left:-400%} 22.5%{left:-400%} 25%{left:-500%} 27.5%{left:-500%} 30%{left:-600%} 32.5%{left:-600%} 35%{left:-700%} 37.5%{left:-700%} 40%{left:-800%} 42.5%{left:-800%} 45%{left:-900%} 47.5%{left:-900%} 50%{left:-1000%} 52.5%{left:-1000%} 55%{left:-1100%} 57.5%{left:-1100%} 60%{left:-1200%} 62.5%{left:-1200%} 65%{left:-1300%} 67.5%{left:-1300%} 70%{left:-1400%} 72.5%{left:-1400%} 75%{left:-1500%} 77.5%{left:-1500%} 80%{left:-1600%} 82.5%{left:-1600%} 85%{left:-1700%} 87.5%{left:-1700%} 90%{left:-1800%} 92.5%{left:-1800%} 95%{left:-1900%} 97.5%{left:-1900%} }
-@-webkit-keyframes wsBasic{0%{left:-0%} 2.5%{left:-0%} 5%{left:-100%} 7.5%{left:-100%} 10%{left:-200%} 12.5%{left:-200%} 15%{left:-300%} 17.5%{left:-300%} 20%{left:-400%} 22.5%{left:-400%} 25%{left:-500%} 27.5%{left:-500%} 30%{left:-600%} 32.5%{left:-600%} 35%{left:-700%} 37.5%{left:-700%} 40%{left:-800%} 42.5%{left:-800%} 45%{left:-900%} 47.5%{left:-900%} 50%{left:-1000%} 52.5%{left:-1000%} 55%{left:-1100%} 57.5%{left:-1100%} 60%{left:-1200%} 62.5%{left:-1200%} 65%{left:-1300%} 67.5%{left:-1300%} 70%{left:-1400%} 72.5%{left:-1400%} 75%{left:-1500%} 77.5%{left:-1500%} 80%{left:-1600%} 82.5%{left:-1600%} 85%{left:-1700%} 87.5%{left:-1700%} 90%{left:-1800%} 92.5%{left:-1800%} 95%{left:-1900%} 97.5%{left:-1900%} }
+@keyframes wsBasic{0%{left:-0%} 0.87%{left:-0%} 1.22%{left:-100%} 2.09%{left:-100%} 2.44%{left:-200%} 3.31%{left:-200%} 3.66%{left:-300%} 4.53%{left:-300%} 4.88%{left:-400%} 5.75%{left:-400%} 6.1%{left:-500%} 6.97%{left:-500%} 7.32%{left:-600%} 8.19%{left:-600%} 8.54%{left:-700%} 9.41%{left:-700%} 9.76%{left:-800%} 10.63%{left:-800%} 10.98%{left:-900%} 11.85%{left:-900%} 12.2%{left:-1000%} 13.07%{left:-1000%} 13.41%{left:-1100%} 14.29%{left:-1100%} 14.63%{left:-1200%} 15.51%{left:-1200%} 15.85%{left:-1300%} 16.72%{left:-1300%} 17.07%{left:-1400%} 17.94%{left:-1400%} 18.29%{left:-1500%} 19.16%{left:-1500%} 19.51%{left:-1600%} 20.38%{left:-1600%} 20.73%{left:-1700%} 21.6%{left:-1700%} 21.95%{left:-1800%} 22.82%{left:-1800%} 23.17%{left:-1900%} 24.04%{left:-1900%} 24.39%{left:-2000%} 25.26%{left:-2000%} 25.61%{left:-2100%} 26.48%{left:-2100%} 26.83%{left:-2200%} 27.7%{left:-2200%} 28.05%{left:-2300%} 28.92%{left:-2300%} 29.27%{left:-2400%} 30.14%{left:-2400%} 30.49%{left:-2500%} 31.36%{left:-2500%} 31.71%{left:-2600%} 32.58%{left:-2600%} 32.93%{left:-2700%} 33.8%{left:-2700%} 34.15%{left:-2800%} 35.02%{left:-2800%} 35.37%{left:-2900%} 36.24%{left:-2900%} 36.59%{left:-3000%} 37.46%{left:-3000%} 37.8%{left:-3100%} 38.68%{left:-3100%} 39.02%{left:-3200%} 39.9%{left:-3200%} 40.24%{left:-3300%} 41.11%{left:-3300%} 41.46%{left:-3400%} 42.33%{left:-3400%} 42.68%{left:-3500%} 43.55%{left:-3500%} 43.9%{left:-3600%} 44.77%{left:-3600%} 45.12%{left:-3700%} 45.99%{left:-3700%} 46.34%{left:-3800%} 47.21%{left:-3800%} 47.56%{left:-3900%} 48.43%{left:-3900%} 48.78%{left:-4000%} 49.65%{left:-4000%} 50%{left:-4100%} 50.87%{left:-4100%} 51.22%{left:-4200%} 52.09%{left:-4200%} 52.44%{left:-4300%} 53.31%{left:-4300%} 53.66%{left:-4400%} 54.53%{left:-4400%} 54.88%{left:-4500%} 55.75%{left:-4500%} 56.1%{left:-4600%} 56.97%{left:-4600%} 57.32%{left:-4700%} 58.19%{left:-4700%} 58.54%{left:-4800%} 59.41%{left:-4800%} 59.76%{left:-4900%} 60.63%{left:-4900%} 60.98%{left:-5000%} 61.85%{left:-5000%} 62.2%{left:-5100%} 63.07%{left:-5100%} 63.41%{left:-5200%} 64.29%{left:-5200%} 64.63%{left:-5300%} 65.51%{left:-5300%} 65.85%{left:-5400%} 66.72%{left:-5400%} 67.07%{left:-5500%} 67.94%{left:-5500%} 68.29%{left:-5600%} 69.16%{left:-5600%} 69.51%{left:-5700%} 70.38%{left:-5700%} 70.73%{left:-5800%} 71.6%{left:-5800%} 71.95%{left:-5900%} 72.82%{left:-5900%} 73.17%{left:-6000%} 74.04%{left:-6000%} 74.39%{left:-6100%} 75.26%{left:-6100%} 75.61%{left:-6200%} 76.48%{left:-6200%} 76.83%{left:-6300%} 77.7%{left:-6300%} 78.05%{left:-6400%} 78.92%{left:-6400%} 79.27%{left:-6500%} 80.14%{left:-6500%} 80.49%{left:-6600%} 81.36%{left:-6600%} 81.71%{left:-6700%} 82.58%{left:-6700%} 82.93%{left:-6800%} 83.8%{left:-6800%} 84.15%{left:-6900%} 85.02%{left:-6900%} 85.37%{left:-7000%} 86.24%{left:-7000%} 86.59%{left:-7100%} 87.46%{left:-7100%} 87.8%{left:-7200%} 88.68%{left:-7200%} 89.02%{left:-7300%} 89.9%{left:-7300%} 90.24%{left:-7400%} 91.11%{left:-7400%} 91.46%{left:-7500%} 92.33%{left:-7500%} 92.68%{left:-7600%} 93.55%{left:-7600%} 93.9%{left:-7700%} 94.77%{left:-7700%} 95.12%{left:-7800%} 95.99%{left:-7800%} 96.34%{left:-7900%} 97.21%{left:-7900%} 97.56%{left:-8000%} 98.43%{left:-8000%} 98.78%{left:-8100%} 99.65%{left:-8100%} }
+@-moz-keyframes wsBasic{0%{left:-0%} 0.87%{left:-0%} 1.22%{left:-100%} 2.09%{left:-100%} 2.44%{left:-200%} 3.31%{left:-200%} 3.66%{left:-300%} 4.53%{left:-300%} 4.88%{left:-400%} 5.75%{left:-400%} 6.1%{left:-500%} 6.97%{left:-500%} 7.32%{left:-600%} 8.19%{left:-600%} 8.54%{left:-700%} 9.41%{left:-700%} 9.76%{left:-800%} 10.63%{left:-800%} 10.98%{left:-900%} 11.85%{left:-900%} 12.2%{left:-1000%} 13.07%{left:-1000%} 13.41%{left:-1100%} 14.29%{left:-1100%} 14.63%{left:-1200%} 15.51%{left:-1200%} 15.85%{left:-1300%} 16.72%{left:-1300%} 17.07%{left:-1400%} 17.94%{left:-1400%} 18.29%{left:-1500%} 19.16%{left:-1500%} 19.51%{left:-1600%} 20.38%{left:-1600%} 20.73%{left:-1700%} 21.6%{left:-1700%} 21.95%{left:-1800%} 22.82%{left:-1800%} 23.17%{left:-1900%} 24.04%{left:-1900%} 24.39%{left:-2000%} 25.26%{left:-2000%} 25.61%{left:-2100%} 26.48%{left:-2100%} 26.83%{left:-2200%} 27.7%{left:-2200%} 28.05%{left:-2300%} 28.92%{left:-2300%} 29.27%{left:-2400%} 30.14%{left:-2400%} 30.49%{left:-2500%} 31.36%{left:-2500%} 31.71%{left:-2600%} 32.58%{left:-2600%} 32.93%{left:-2700%} 33.8%{left:-2700%} 34.15%{left:-2800%} 35.02%{left:-2800%} 35.37%{left:-2900%} 36.24%{left:-2900%} 36.59%{left:-3000%} 37.46%{left:-3000%} 37.8%{left:-3100%} 38.68%{left:-3100%} 39.02%{left:-3200%} 39.9%{left:-3200%} 40.24%{left:-3300%} 41.11%{left:-3300%} 41.46%{left:-3400%} 42.33%{left:-3400%} 42.68%{left:-3500%} 43.55%{left:-3500%} 43.9%{left:-3600%} 44.77%{left:-3600%} 45.12%{left:-3700%} 45.99%{left:-3700%} 46.34%{left:-3800%} 47.21%{left:-3800%} 47.56%{left:-3900%} 48.43%{left:-3900%} 48.78%{left:-4000%} 49.65%{left:-4000%} 50%{left:-4100%} 50.87%{left:-4100%} 51.22%{left:-4200%} 52.09%{left:-4200%} 52.44%{left:-4300%} 53.31%{left:-4300%} 53.66%{left:-4400%} 54.53%{left:-4400%} 54.88%{left:-4500%} 55.75%{left:-4500%} 56.1%{left:-4600%} 56.97%{left:-4600%} 57.32%{left:-4700%} 58.19%{left:-4700%} 58.54%{left:-4800%} 59.41%{left:-4800%} 59.76%{left:-4900%} 60.63%{left:-4900%} 60.98%{left:-5000%} 61.85%{left:-5000%} 62.2%{left:-5100%} 63.07%{left:-5100%} 63.41%{left:-5200%} 64.29%{left:-5200%} 64.63%{left:-5300%} 65.51%{left:-5300%} 65.85%{left:-5400%} 66.72%{left:-5400%} 67.07%{left:-5500%} 67.94%{left:-5500%} 68.29%{left:-5600%} 69.16%{left:-5600%} 69.51%{left:-5700%} 70.38%{left:-5700%} 70.73%{left:-5800%} 71.6%{left:-5800%} 71.95%{left:-5900%} 72.82%{left:-5900%} 73.17%{left:-6000%} 74.04%{left:-6000%} 74.39%{left:-6100%} 75.26%{left:-6100%} 75.61%{left:-6200%} 76.48%{left:-6200%} 76.83%{left:-6300%} 77.7%{left:-6300%} 78.05%{left:-6400%} 78.92%{left:-6400%} 79.27%{left:-6500%} 80.14%{left:-6500%} 80.49%{left:-6600%} 81.36%{left:-6600%} 81.71%{left:-6700%} 82.58%{left:-6700%} 82.93%{left:-6800%} 83.8%{left:-6800%} 84.15%{left:-6900%} 85.02%{left:-6900%} 85.37%{left:-7000%} 86.24%{left:-7000%} 86.59%{left:-7100%} 87.46%{left:-7100%} 87.8%{left:-7200%} 88.68%{left:-7200%} 89.02%{left:-7300%} 89.9%{left:-7300%} 90.24%{left:-7400%} 91.11%{left:-7400%} 91.46%{left:-7500%} 92.33%{left:-7500%} 92.68%{left:-7600%} 93.55%{left:-7600%} 93.9%{left:-7700%} 94.77%{left:-7700%} 95.12%{left:-7800%} 95.99%{left:-7800%} 96.34%{left:-7900%} 97.21%{left:-7900%} 97.56%{left:-8000%} 98.43%{left:-8000%} 98.78%{left:-8100%} 99.65%{left:-8100%} }
+@-webkit-keyframes wsBasic{0%{left:-0%} 0.87%{left:-0%} 1.22%{left:-100%} 2.09%{left:-100%} 2.44%{left:-200%} 3.31%{left:-200%} 3.66%{left:-300%} 4.53%{left:-300%} 4.88%{left:-400%} 5.75%{left:-400%} 6.1%{left:-500%} 6.97%{left:-500%} 7.32%{left:-600%} 8.19%{left:-600%} 8.54%{left:-700%} 9.41%{left:-700%} 9.76%{left:-800%} 10.63%{left:-800%} 10.98%{left:-900%} 11.85%{left:-900%} 12.2%{left:-1000%} 13.07%{left:-1000%} 13.41%{left:-1100%} 14.29%{left:-1100%} 14.63%{left:-1200%} 15.51%{left:-1200%} 15.85%{left:-1300%} 16.72%{left:-1300%} 17.07%{left:-1400%} 17.94%{left:-1400%} 18.29%{left:-1500%} 19.16%{left:-1500%} 19.51%{left:-1600%} 20.38%{left:-1600%} 20.73%{left:-1700%} 21.6%{left:-1700%} 21.95%{left:-1800%} 22.82%{left:-1800%} 23.17%{left:-1900%} 24.04%{left:-1900%} 24.39%{left:-2000%} 25.26%{left:-2000%} 25.61%{left:-2100%} 26.48%{left:-2100%} 26.83%{left:-2200%} 27.7%{left:-2200%} 28.05%{left:-2300%} 28.92%{left:-2300%} 29.27%{left:-2400%} 30.14%{left:-2400%} 30.49%{left:-2500%} 31.36%{left:-2500%} 31.71%{left:-2600%} 32.58%{left:-2600%} 32.93%{left:-2700%} 33.8%{left:-2700%} 34.15%{left:-2800%} 35.02%{left:-2800%} 35.37%{left:-2900%} 36.24%{left:-2900%} 36.59%{left:-3000%} 37.46%{left:-3000%} 37.8%{left:-3100%} 38.68%{left:-3100%} 39.02%{left:-3200%} 39.9%{left:-3200%} 40.24%{left:-3300%} 41.11%{left:-3300%} 41.46%{left:-3400%} 42.33%{left:-3400%} 42.68%{left:-3500%} 43.55%{left:-3500%} 43.9%{left:-3600%} 44.77%{left:-3600%} 45.12%{left:-3700%} 45.99%{left:-3700%} 46.34%{left:-3800%} 47.21%{left:-3800%} 47.56%{left:-3900%} 48.43%{left:-3900%} 48.78%{left:-4000%} 49.65%{left:-4000%} 50%{left:-4100%} 50.87%{left:-4100%} 51.22%{left:-4200%} 52.09%{left:-4200%} 52.44%{left:-4300%} 53.31%{left:-4300%} 53.66%{left:-4400%} 54.53%{left:-4400%} 54.88%{left:-4500%} 55.75%{left:-4500%} 56.1%{left:-4600%} 56.97%{left:-4600%} 57.32%{left:-4700%} 58.19%{left:-4700%} 58.54%{left:-4800%} 59.41%{left:-4800%} 59.76%{left:-4900%} 60.63%{left:-4900%} 60.98%{left:-5000%} 61.85%{left:-5000%} 62.2%{left:-5100%} 63.07%{left:-5100%} 63.41%{left:-5200%} 64.29%{left:-5200%} 64.63%{left:-5300%} 65.51%{left:-5300%} 65.85%{left:-5400%} 66.72%{left:-5400%} 67.07%{left:-5500%} 67.94%{left:-5500%} 68.29%{left:-5600%} 69.16%{left:-5600%} 69.51%{left:-5700%} 70.38%{left:-5700%} 70.73%{left:-5800%} 71.6%{left:-5800%} 71.95%{left:-5900%} 72.82%{left:-5900%} 73.17%{left:-6000%} 74.04%{left:-6000%} 74.39%{left:-6100%} 75.26%{left:-6100%} 75.61%{left:-6200%} 76.48%{left:-6200%} 76.83%{left:-6300%} 77.7%{left:-6300%} 78.05%{left:-6400%} 78.92%{left:-6400%} 79.27%{left:-6500%} 80.14%{left:-6500%} 80.49%{left:-6600%} 81.36%{left:-6600%} 81.71%{left:-6700%} 82.58%{left:-6700%} 82.93%{left:-6800%} 83.8%{left:-6800%} 84.15%{left:-6900%} 85.02%{left:-6900%} 85.37%{left:-7000%} 86.24%{left:-7000%} 86.59%{left:-7100%} 87.46%{left:-7100%} 87.8%{left:-7200%} 88.68%{left:-7200%} 89.02%{left:-7300%} 89.9%{left:-7300%} 90.24%{left:-7400%} 91.11%{left:-7400%} 91.46%{left:-7500%} 92.33%{left:-7500%} 92.68%{left:-7600%} 93.55%{left:-7600%} 93.9%{left:-7700%} 94.77%{left:-7700%} 95.12%{left:-7800%} 95.99%{left:-7800%} 96.34%{left:-7900%} 97.21%{left:-7900%} 97.56%{left:-8000%} 98.43%{left:-8000%} 98.78%{left:-8100%} 99.65%{left:-8100%} }
 
 #wowslider-container1 .ws_bullets  a img{
 	text-indent:0;
 	display:block;
-	top:20px;
-	left:-50px;
+	bottom:20px;
+	left:-41px;
 	visibility:hidden;
 	position:absolute;
     border: 4px solid #FFFFFF;
@@ -386,7 +331,7 @@
 }
 
 #wowslider-container1 .ws_bulframe div div{
-	height:100px;
+	height:48px;
 	overflow:visible;
 	position:relative;
 }
@@ -394,12 +339,12 @@
 	left:0;
 	overflow:hidden;
 	position:relative;
-	width:100px;
+	width:82px;
 	background-color:#FFFFFF;
 }
 #wowslider-container1  .ws_bullets .ws_bulframe{
 	display:none;
-	top:11px;
+	bottom:11px;
 	margin-left:0px;
 	overflow:visible;
 	position:absolute;
@@ -409,9 +354,9 @@
 #wowslider-container1 .ws_bulframe span{
 	display:block;
 	position:absolute;
-	top:-9px;
+	bottom:-9px;
 	margin-left:-1px;
-	left:50px;
+	left:41px;
 	background:url(./triangle.png);
 	width:13px;
 	height:7px;
