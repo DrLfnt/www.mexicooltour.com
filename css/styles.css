@@ -28,6 +28,11 @@ ul li {
 	text-align: left;
 	font-size: 1.2em;
 }
+.terminoCondiciones {
+	color:#BEBEBE;
+	font-size: 14px;
+}
+
 .logotipoIndex {
 	position: static;
 	margin-top: -800px;
