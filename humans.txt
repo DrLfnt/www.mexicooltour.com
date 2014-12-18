@@ -1,8 +1,40 @@
 /* MexiCoolTour | Descripcion - http://mexicooltour.com/ Agencia mexicana de turismo */
+                                                                                                        ,                    
+                                                                                                      ,B5                    
+                                                                                                B,   2B@                     
+                                                                                              ,@@  r@B@,                     
+                                                                                             2B@, G@M@H                      
+                                                                                            @BG9SMBGBM                       
+                            ,r9@B92GB@s :XB@G,   :S@BG                                     92s2GGX2M9                        
+                         iGB@BG, ,9@@,,9sG@B@G ,GsM@@@B                                   s2XG9srs@S                         
+                       sB@B@,   5@@@,r2  MB@B:rG  G@B@s                                  rG92r:sM@s                          
+                      @B@Br    B@B@rH:  @BBBB5r  B@B@B                             isMX;,2s;;sBB@                            
+                     @B@@,   ,B@B@M2   @BB@@B   B@B@B                            ,G@B@BGSsrsG@BM                             
+                     @@B@   ,B@B@Bs   @B@B@9   B@B@B                         ,  irrX@B@B@B@MSsrrsG@2:                        
+                      5@M   B@B@Bi   @B@@@s   B@B@B                        :B@Bs         :sGB@B@9rG@B@BG:                    
+                           B@B@B,   @BBB@r   B@B@B                          9G9,             ,s,      ,i;              rs    
+                          G@B@B    @@@B@:   B@B@B                                   iGHsssXs                           XG    
+                         5@B@B    @B@B@,   M@B@M  MSs2s    i@:2i   ,r       iBX    sB,     X@       ,          ,,      s9    
+                        r@B@B    @B@B@    M@B@M,S@G   Gs  ,@@ ir   @,      HB@B   ,Bi       r,   s952XX:    ,XX229s    2X    
+                       :@B@@,   @B@B@    M@B@@ 9@B    G,  rB@S:   @:      sB@B@   iM,           9X    iMr  :Br    SG   29    
+                       @@@Bi   9B@@@    9@B@@  @B@  ,9:    @B@:  @i      si:B@B   iM,          rM      sG  92      Mr  2X    
+                      @B@Bs   rB@B@    r@@@B  G@@BS,s      M@B@rS,      22 r@B@    G:       ;, rM      rM  92      Gs  29    
+                     BB@BH    B@B@     @B@M rs XB@BM    :sr s@@@Bi   ,;9s  :B@Br ,s9G,     XB, ,Ms     Ms  rM,    rB,  29    
+                    9B@BG     @B@,    iB@BGr,   rB@B@BB9s    s@B@B@@@BX,    SB@B@M: iXsr;rH2    ,9XsrsGs    sG2rsS9,   SM    
+          iSXi     s@@B@      :5i      rsr         ,,,      2H   ,,,                  ,:::        ,:i:        ,i:,     ,,    
+       r@B@B:,@X  iB@B@                                    is                     HMGX2ss2X9MG                               
+      B@B@5  G@@  B@B@                                                            ,:,,:SSr ,,,                               
+     @@B@r  G@@s B@B@                                                                 ,SX,     rXGGXs    S9r   sX2  rSsi9M,  
+    B@B@r  MB@9 G@B@,                                                                 ,9S:   ,9Gs,,sGG:  9Gs   s99  s9SSrs   
+   ,@B@H  @B@s 9@B@:                                                                  ,XX:   59s    sXX  S9r   sX5  rSS      
+   ,B@B ,@BS  M@@@                                                                    ,9X:   XSs    rXX  XSr   rSS  rX2      
+    GBM     ,B@Br                                                                     ,99:   rGS,   S9s  99s   sXH  sXX      
+     s@r,,s@B@r                                                                       :MGr    rGG9SM9s   rGGXXS99G  sMG      
+        ,:i                                                                                      ,,         ,                
 
-/* Creators */
+/* Creator */
 	UX & UI, Front End & Designer, Growth Hacker: Argenis Oldair Palacios Escobar A.K.A. Dr. Lfnt
-	Contact: a.palacios [at] disain.co | Dr.Lfnt [at] gmail.com
+	Contact: argenis [at] disain.co | Dr.Lfnt [at] gmail.com
 	Twitter: @DrLfnt
 	From: Mexico city, Mexico
 
@@ -13,24 +45,9 @@
 	From: Mexico city, Mexico
 
 /* SITE */
-	Last update: 02/12/2014
+	Last update: 20/12/2014
 	Language: Español / English / Portuguese
 	Standars: HTML5, CSS3, JavaScript.
 	Components: Responsive Design, jQuery, MySQL.
 	Software: OS X Mountain Lion, Windows 7, Windows 8, Sublime Text 2, CSS Edit, Filezilla, Adobe Creative Cloud (Ilustrator CC - Photoshop CC - Dreamweaver CC - Edge CC).
 	Resources: normalize.css | font-awesome.css | modernizr.js | bootstrap.css | animate.css | clearfix.css
-
-
-	jorge@mexicooltour.com
-	jorgemexicooltour
-
-	alejandro@mexicooltour.com
-	alejandromexicooltour
-
-	Wordpress
-	
-	Base de datos
-	mexicool_wpdb
-	
-	Usuario
-	administrador mexicooltour.com
