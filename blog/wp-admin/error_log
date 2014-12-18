@@ -1,0 +1,4 @@
+[09-Sep-2014 00:38:07] PHP Fatal error:  Class 'WP_Filesystem_direct' not found in /home/mexicooltour/public_html/blog/wp-admin/includes/file.php on line 894
+[09-Sep-2014 00:38:16] PHP Fatal error:  Class 'WP_Filesystem_direct' not found in /home/mexicooltour/public_html/blog/wp-admin/includes/file.php on line 894
+[09-Sep-2014 00:38:30] PHP Fatal error:  Class 'WP_Filesystem_direct' not found in /home/mexicooltour/public_html/blog/wp-admin/includes/file.php on line 894
+[09-Sep-2014 00:39:23] PHP Fatal error:  Class 'WP_Filesystem_direct' not found in /home/mexicooltour/public_html/blog/wp-admin/includes/file.php on line 894
