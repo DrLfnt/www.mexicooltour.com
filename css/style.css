@@ -16,6 +16,10 @@ body {
 	margin: 0; padding: 0;
 }
 
+.jus {
+	text-align: justify;
+}
+
 /* Fuentes */
 .roboto {
 	font-family: 'Roboto', sans-serif;
