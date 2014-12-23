@@ -18,4 +18,4 @@ function ws_photo(a,g,j){var c=jQuery,e=c(this),l=c(".ws_list",j),n=(/iPhone|iPo
 // Obfuscated by Javascript Obfuscator
 // http://javascript-source.com
 //***********************************************
-jQuery("#wowslider-container1").wowSlider({effect:"photo",prev:"",next:"",duration:20*100,delay:50*100,width:1200,height:700,autoPlay:true,autoPlayVideo:false,playPause:false,stopOnHover:false,loop:false,bullets:0,caption:true,captionEffect:"parallax",controls:true,responsive:1,fullScreen:false,gestures:2,onBeforeStep:0,images:0});
+jQuery("#wowslider-container1").wowSlider({effect:"photo",prev:"",next:"",duration:20*100,delay:50*100,width:1200,height:700,autoPlay:true,autoPlayVideo:false,playPause:false,stopOnHover:true,loop:false,bullets:0,caption:true,captionEffect:"parallax",controls:true,responsive:1,fullScreen:false,gestures:1,onBeforeStep:0,images:0});
