@@ -45,7 +45,7 @@
 	From: Mexico city, Mexico
 
 /* SITE */
-	Last update: 20/12/2014
+	Last update: 23/12/2014
 	Language: Español / English / Portuguese
 	Standars: HTML5, CSS3, JavaScript.
 	Components: Responsive Design, jQuery, MySQL.
