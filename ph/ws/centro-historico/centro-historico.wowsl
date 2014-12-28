@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>6.6</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>true</FullScreen>
+            <GalleryName>centro-historico</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>parallax,brick</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>768</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/balance/</ImageTemplate>
+            <ImageTemplateName>Balance</ImageTemplateName>
+            <ImageWidth>1024</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/ws/centro-historico/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/ws/centro-historico</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SizeStyle>3</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>balance</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>1</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Desktop/cd-mx/Casa de los azulejos.jpg</url>
+                <title>Casa de los azulejos</title>
+                <filesize>572873</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Desktop/cd-mx/Catedral Metropolitana.jpg</url>
+                <title>Catedral Metropolitana</title>
+                <filesize>2098273</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Desktop/cd-mx/Palacio Nacional.jpg</url>
+                <title>Palacio Nacional</title>
+                <filesize>649675</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Desktop/cd-mx/Palacios de México.jpg</url>
+                <title>Palacios de México</title>
+                <filesize>382768</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Desktop/cd-mx/Plaza de la Constitucion.jpg</url>
+                <title>Plaza de la Constitucion</title>
+                <filesize>231261</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Desktop/cd-mx/Plaza Manuel Tolsa.jpg</url>
+                <title>Plaza Manuel Tolsa</title>
+                <filesize>241598</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Desktop/cd-mx/Torre Latinoamericana.jpg</url>
+                <title>Torre Latinoamericana</title>
+                <filesize>3812544</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

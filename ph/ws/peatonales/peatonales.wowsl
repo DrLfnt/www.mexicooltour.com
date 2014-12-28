@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>6.6</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>true</FullScreen>
+            <GalleryName>peatonales</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>parallax,brick</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>768</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files/WOW Slider/templates/backgnd/balance/</ImageTemplate>
+            <ImageTemplateName>Balance</ImageTemplateName>
+            <ImageWidth>1024</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Argenis/Documents/GitHub/www.mexicooltour.com/ws/peatonales/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/Argenis/Documents/GitHub/www.mexicooltour.com/ws/peatonales</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SizeStyle>3</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>balance</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>1</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Argenis/Desktop/peatonales/castillo de chapultepec.png</url>
+                <title>Castillo de Chapultepec</title>
+                <filesize>530434</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Argenis/Desktop/peatonales/centro historico.jpg</url>
+                <title>Centro Histórico</title>
+                <filesize>74314</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Argenis/Desktop/peatonales/hemiciclo a juarez.png</url>
+                <title>Hemiciclo a Juarez</title>
+                <filesize>540974</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Argenis/Desktop/peatonales/mercados mexicanos.png</url>
+                <title>Mercados Mexicanos</title>
+                <filesize>745270</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Argenis/Desktop/peatonales/palacios virreinales.png</url>
+                <title>Palacios Virreinales</title>
+                <filesize>674483</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

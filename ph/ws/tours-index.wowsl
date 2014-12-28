@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>6.6</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>true</FullScreen>
+            <GalleryName>tours-index</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>brick</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>768</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/balance/</ImageTemplate>
+            <ImageTemplateName>Balance</ImageTemplateName>
+            <ImageWidth>1024</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>true</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>true</Preloader>
+            <PublishFileName>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/ws/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/ws</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SizeStyle>3</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateName>balance</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>1</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/MexiCoolTour.jpg</url>
+                <title>MexiCoolTour</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>167061</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/peatonales.jpg</url>
+                <title>Tours Peatonales</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>526980</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/puebla.jpg</url>
+                <title>puebla</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>687788</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/recuerdos.jpg</url>
+                <title>México de mis recuerdos</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>163259</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/taxco.jpg</url>
+                <title>Taxco</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>1133316</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/teotihuacan.jpg</url>
+                <title>Teotihuacan</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>1309624</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/vino.jpg</url>
+                <title>Peña de Bernal</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>1189618</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/virgen.jpg</url>
+                <title>Virgen de Guadalupe</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>675767</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/xochimilco.jpg</url>
+                <title>Xochimilco</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>1180343</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Dr.Lfnt/Documents/GitHub/www.mexicooltour.com/img/centro-historico.jpg</url>
+                <title>Centro Histórico</title>
+                <userurl>http://www.mexicooltour.com/prueba/tours/index.html</userurl>
+                <usertarget>_self</usertarget>
+                <filesize>222566</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

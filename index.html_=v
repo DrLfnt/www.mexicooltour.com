@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="es_MX"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="es_MX"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="es_MX"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="es_MX"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="es_MX"> <!--<![endif]-->
+<head>
+	<!-- metas -->
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<!-- Especificaciones movil -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="cleartype" content="on">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+	<!-- Mobile Internet Explorer ClearType Technology -->
+	<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+	<!-- Especificaciones movil -->
+	<!-- metas -->
+	<!-- Iconos -->
+	<link rel="shortcut icon" type="image/x-icon" href="images/icons/favicon.ico"/>
+	<!-- Android Icon -->
+	<link rel="icon" sizes="196x196" href="images/icons/icon-196.png"/>
+	<link rel="icon" sizes="128x128" href="images/icons/icon-128.png"/>
+	<!-- Android Icon -->
+	<!-- Apple Icon -->
+	<link rel="apple-touch-icon" href="images/icons/icon.png"/>
+	<link rel="apple-touch-icon" sizes="128x128" href="images/icons/icon-128.png"/>
+	<link rel="apple-touch-icon-precomposed" sizes="128x128" href="images/icons/icon-128.png"/>
+	<!-- Apple Icon -->
+	<!-- Apple Retina Icon -->
+	<link rel="apple-touch-icon" sizes="76x76" href="images/icons/icon-76.png"/>
+	<link rel="apple-touch-icon" sizes="120x120" href="images/icons/icon-120.png"/>
+	<link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-152.png"/>
+	<!-- Apple Retina Icon -->
+	<!-- Iconos -->
+	<!-- Contenido -->
+	<meta content="Agencia turistica" name="description">
+	<meta content="Tour, turismo" name="keywords">
+	<meta content="Argenis Oldair Palacios A.K.A. Dr. Lfnt | Julio César Tinoco Marín" name="author" href="https://plus.google.com/+ArgenisOldairPalaciosDrLfnt">
+	<!-- Verificacion -->
+	<meta name="google-site-verification" content="9npx7KTIfdrpegx2BTy5aOafiiKGdkVVNh583_EnGWQ" />
+	<meta name="verify-v1" content="9npx7KTIfdrpegx2BTy5aOafiiKGdkVVNh583_EnGWQ" >
+	<!-- Verificacion -->
+	<!-- Humans.txt -->
+	<link rel="author" type="text/plain" href="http://mexicooltour.com/humans.txt">
+	<!-- Humans.txt -->
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@DisainCo">
+	<meta name="twitter:title" content="Estudio de Diseño y Desarrollo Web">
+	<meta name="twitter:description" content="Creatividad, UX Design, Front-End, Apps, Marketing, Publicidad">
+	<meta name="twitter:creator" content="@DisainCo">
+	<meta name="twitter:image:src" content="https://pbs.twimg.com/profile_images/433273181772582912/Mu2TiZIt.png">
+	<meta name="twitter:domain" content="http://disain.co/">
+	<!-- Twitter Card -->
+	<!-- Contenido -->
+	<!-- if -->
+	<!--[if gte IE 9]>
+	<style type="text/css">
+		.gradient {
+		filter: none;
+		}
+	</style>
+	<![endif]-->
+	<!-- Mobile Internet Explorer ClearType Technology -->
+	<!--[if IEMobile]>
+	<meta http-equiv="cleartype" content="on">
+	<![endif]-->
+	<!-- if -->
+	<!-- Scripts -->
+	<!-- Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-54585603-1', 'mexicooltour.com');
+	ga('send', 'pageview');
+	</script>
+	<!-- Analytics -->
+	<script>
+	// iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
+	(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
+	</script>
+	<!-- Scripts -->
+	<!-- Titulo -->
+	<title>MexiCoolTour | En Construcción</title>
+	<!-- Titulo -->
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/normalize.css?v=3.0.1" type="text/css" />
+	<link rel="stylesheet" href="css/style.css?v=1" type="text/css" />
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,latin-ext' type='text/css' />
+	<!-- CSS -->
+</head>
+<body class="bg bg-arcoiris">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5KCT2J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5KCT2J');</script>
+<!-- End Google Tag Manager -->
+
+	<center>
+		<h1 class="roboto verdeobscuro fx-3d-float">
+			En Construcción
+		</h1>
+		<img class="logo-enconstruccion animated zoomIn" src="images/mexicooltour-logo.svg" alt="MexiCoolTour">
+		<h2 class="roboto verdeobscuro fx-3d-float">
+			Proximamente
+		</h2>
+	</center>
+	<!-- Scripts -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- Scripts -->
+</body>
+</html>
