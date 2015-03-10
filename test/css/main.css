@@ -984,31 +984,14 @@ a.accordion-toggle  i{
   border-bottom: 0 none;
 }
 
-#partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+#contacto {
+  background: url(../images/partners/contacto-mexicooltour.jpg) 50% 50% no-repeat fixed;
   background-size: cover;
 }
 
-#partner {
+#contacto {
   color: #fff;
   text-align: center;
-}
-
-#partner h2, 
-#partner h3 {
-  color: #fff;
-}
-
-.partners ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.partners ul li{
-  display: inline-block;
-  float: left;
-  width: 20%;
 }
 
 #conatcat-info{
