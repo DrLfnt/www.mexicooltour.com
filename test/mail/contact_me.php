@@ -19,7 +19,7 @@ $message = $_POST['message'];
 $to = 'dr.lfnt@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Contacto desde MexiCoolTour:  $name";
 $email_body = "Ha recibido un nuevo mensaje de su formulario de contacto web.\n\n"."Aquí están los detalles:\n\nNombre: $name\n\nCorreo Electrónico: $email_address\n\nTeléfono: $phone\n\nMensaje:\n$message";
-$headers = "From: noreply@mexicooltour.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers = "From: info@mexicooltour.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			

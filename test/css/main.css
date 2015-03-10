@@ -34,8 +34,7 @@
 .channel {font-family: 'channelregular';}
 /* Fuentes MexiCoolTour*/
 /* Colibri */
-.colibri::before {content: url(../images/colibri-mexicooltour.png);
-}
+.colibri::before {content: url(../images/colibri-mexicooltour.png);}
 /* Colibri */
 
 body {
@@ -570,7 +569,7 @@ input.search-form:hover {
 }
 
 #feature {
-  background: #f2f2f2;
+  background: #fff;
   padding-bottom: 40px;
 }
 
