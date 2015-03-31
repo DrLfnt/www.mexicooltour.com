@@ -1,5 +1,27 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Roboto+Slab|Roboto);
 
+/* !important */
+.blanco{color:#fff!important;}
+.blancoBG{background:#fff!important;}
+.verdeClaro{color:#1BC11B!important;}
+.verdeClaroBG{background:#1BC11B!important;}
+.verdeMedio{color:#006C34!important;}
+.verdeMedioBG{background:#006C34!important;}
+.verdeObscuro{color:#003B20!important;}
+.verdeObscuroBG{background:#003B20!important;}
+.noPaddingLateral{padding-right:0px !important;padding-left:0px !important;}
+.paddingTop0{padding-top: 0!important;}
+.paddingBottom0{padding-bottom: 0!important;}
+.fontWeightLighter{font-weight:lighter!important;}
+.fontSize1-5em{font-size:1.5em !important;}
+.fontSize2em{font-size:2em !important;}
+.fontSize2-5em{font-size:2.5em !important;}
+.fontSize3em{font-size:3em !important;}
+.fontSize3-5em{font-size:3.5em !important;}
+.fontSize4em{font-size:4em !important;}
+.fontSize4-5em{font-size:4.5em !important;}
+.fontSize5em{font-size:5em !important;}
+/* !important */
 
 /*************************
 *******Typography******
