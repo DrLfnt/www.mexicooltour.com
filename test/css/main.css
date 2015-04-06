@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lobster|Roboto+Slab|Roboto);
 
 /* !important */
+p{color: #333333 !important;}
+ul li {list-style: none;text-align: left;font-size: 1.2em;}
 .blanco{color:#fff!important;}
 .blancoBG{background:#fff!important;}
 .verdeClaro{color:#1BC11B!important;}
@@ -23,6 +25,11 @@
 .fontSize5em{font-size:5em !important;}
 .fontSize5-5em{font-size:5.5em !important;}
 .fontSize6em{font-size:6em !important;}
+.bold, a:hover{color: #333;-webkit-transition: all 600ms;-moz-transition: all 600ms;-ms-transition: all 600ms;-o-transition: all 600ms;transition: all 600ms;}
+.bold:hover{font-size: 1.05em;color: #006c34;-webkit-transition: all 600ms;-moz-transition: all 600ms;-ms-transition: all 600ms;-o-transition: all 600ms;transition: all 600ms;}
+.light{font-weight: lighter!important;}
+.divisorTopBottom {border-top: 2px dotted red;border-bottom: 2px dotted red;}
+.terminoCondiciones{color:#969696!important;font-size: 12px;}
 /* !important */
 
 /*************************
