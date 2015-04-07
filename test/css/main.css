@@ -30,6 +30,7 @@ ul li {list-style: none;text-align: left;font-size: 1.2em;}
 .light{font-weight: lighter!important;}
 .divisorTopBottom {border-top: 2px dotted red;border-bottom: 2px dotted red;}
 .terminoCondiciones{color:#969696!important;font-size: 12px;}
+.puntoDeEncuentro{border-bottom: 2px dotted red;}
 /* !important */
 
 /*************************
@@ -693,7 +694,7 @@ input.search-form:hover {
   opacity: 0;
   border-radius: 0;
   background: #1BC11B;
-  color: #fff;
+  color: #fff!important;
   vertical-align: middle;
   -webkit-transition: opacity 500ms;
   -moz-transition: opacity 500ms;
