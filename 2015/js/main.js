@@ -3,7 +3,7 @@ jQuery(function($) {'use strict',
 	//#main-slider
 	$(function(){
 		$('#main-slider.carousel').carousel({
-			interval: 8000
+			interval: 6000,
 		});
 	});
 
@@ -47,7 +47,7 @@ jQuery(function($) {'use strict',
 			url: $(this).attr('action'),
 
 			beforeSend: function(){
-				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
+				form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> El Email se esta enviando...</p>').fadeIn() );
 			}
 		}).done(function(data){
 			form_status.html('<p class="text-success">' + data.message + '</p>').delay(3000).fadeOut();
