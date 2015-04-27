@@ -28,9 +28,9 @@ ul li {list-style: none;text-align: left;font-size: 1.2em;}
 .bold, a:hover{color: #333;-webkit-transition: all 600ms;-moz-transition: all 600ms;-ms-transition: all 600ms;-o-transition: all 600ms;transition: all 600ms;}
 .bold:hover{font-size: 1.05em;color: #006c34;-webkit-transition: all 600ms;-moz-transition: all 600ms;-ms-transition: all 600ms;-o-transition: all 600ms;transition: all 600ms;}
 .light{font-weight: lighter!important;}
-.divisorTopBottom {border-top: 2px dotted red;border-bottom: 2px dotted red;}
+.divisorTopBottom {border-top: 2px dotted #006C34;border-bottom: 2px dotted #006C34;}
 .terminoCondiciones{color:#969696!important;font-size: 12px;}
-.puntoDeEncuentro{border-bottom: 2px dotted red;}
+.puntoDeEncuentro{border-bottom: 2px dotted #006C34;}
 /* !important */
 
 /*************************
