@@ -161,6 +161,7 @@ a:focus {
 
 .dropdown-menu {
   margin-top: -1px;
+  min-width: 270px;
 }
 
 .center h2{
