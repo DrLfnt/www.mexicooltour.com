@@ -29,7 +29,7 @@
     // iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
     (function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
     </script>
-    <title>MexiCoolTour | Nuestros tours | Turismo en México</title>
+    <title>MexiCoolTour | Turismo en México | Contacto</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/icons/favicon.ico"/>
     <link rel="icon" sizes="196x196" href="images/icons/icon-196.png"/>
     <link rel="icon" sizes="128x128" href="images/icons/icon-128.png"/>
@@ -111,44 +111,15 @@
     </header>
 
     <section id="main-slider" class="no-margin">
-        <div class="carousel slide" data-interval="6000" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#ma data-interval="6000" data-ride="carousel"in-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
+        <div class="carousel slide">
             <div class="carousel-inner">
-                
-                <div class="item active" style="background-image: url(images/slider/bg3.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Virgen de Guadalupe</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="item" style="background-image: url(images/slider/bg1.jpg)">
+                <div class="item active" style="background-image: url(images/slider/bgContacto.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Ángel de la Independencia</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Teotihuacán</h1>
+                                    <h1 class="animation animated-item-1">Vive la experiencia</h1>
                                 </div>
                             </div>
                         </div>
@@ -157,40 +128,46 @@
 
             </div>
         </div>
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <i class="fa fa-chevron-left"></i>
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <i class="fa fa-chevron-right"></i>
-        </a>
     </section>
     
-    <section class="paddingBottom0" id="feature" >
-
-        <div class="container">
-            
-            <div class="row text-center wow fadeInDown">
-                <div class="col-md-12">
-                    <h2 class="fontSize6em fontWeightLighter lobster verdeMedio">
-                        Tours
-                    </h2>
-                    <p class="fontSize1-5em">
-                        CONOCE TODO LO QUE MÉXICO TE OFRECE
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h2 class="fontSize3em fontWeightLighter roboto verdeClaro wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">Escoge un destino y más que un viaje</h2>
-                </div>
-                <div class="col-md-4">
-                    <h2 class="fontSize3em fontWeightLighter roboto verdeMedio wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="800ms">¡Vive una experiencia inolvidable!</h2>
-                </div>
-                <div class="col-md-4">
-                    <h2 class="fontSize3em fontWeightLighter roboto verdeObscuro wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms"><span class="verdeObscuro harbell"><span style="font-size:1.5em;">M</span><span class="channel">é<span style="color:#333;">xi</span><span style="color:red;">co</span></span></span> te impresionará</h2>
+    <section style="padding-top:0; margin-top:0;" id="contact-info">
+        <div class="gmap-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2 class="fontSize5em lobster fontWeightLighter verdeMedio">
+                            Contactanos
+                        </h2>
+                        <h2 class="hidden fontSize3em lobster fontWeightLighter verdeObscuro">
+                            Punto de Encuentro y de Partida<br>
+                            de nuestros tours peatonales
+                        </h2>
+                        <br /><br />
+                    </div>
+                    <div class="col-sm-5 text-center">
+                        <div>
+                            <iframe style="max-width:100%; max-height:100%;" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="400" height="400" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.476248992675!2d-99.14405000000001!3d19.435023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92af284792b%3A0xde32a0a0c4a5f966!2sHemiciclo+a+Ju%C3%A1rez!5e0!3m2!1ses-419!2sus!4v1412623658484"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 map-content">
+                        <ul class="row">
+                            <li class="col-sm-12 text-center">
+                                <address>
+                                    <h3 class="verdeMedio fontSize2em"><span class="harbell fontSize1-5em">M</span><span class="channel">exi</span>Cool<strong>Tour</strong></h3>
+                                    <p class="fontSize2em verdeObscuro">
+                                        Calle Bosques del Estado de México<br>
+                                        Mz. 2 Lt. 3 Casa 6, Colonia Los Héroes Tecamac, Sección Bosques<br>
+                                        Tecamac Estado de México.
+                                    </p>
+                                    <p class="fontSize2em verdeObscuro"><a class="verdeObscuro" href="tel:+52 1 55 3200 6812">+52 1 55 3200 6812</a><br><a class="verdeObscuro" href="tel:+52 1 55 4865 8554">+52 1 55 4865 8554</a><br />
+                                    <a class="verdeObscuro" href="mailto:info@mexicooltour.com" target="_blank">info@mexicooltour.com</a></p>
+                                </address>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
         </div>
-
     </section>
 
     <section id="todos-tours-cuadrados">
@@ -477,8 +454,10 @@
                     </h2>
                 </div>
                 <div class="col-md-12">
-                    <p style="font-size:11px;color:#969696;">
-                        La operación de todos nuestros tours necesita un número de pasajeros,<br class="hidden-xs">de lo contrario <span>M</span><span>exi</span>CoolTour&reg; se reserva el derecho de cancelar dicho tour.
+                    <br />
+                    <p class="terminoCondiciones text-center roboto">
+                        La operación de todos nuestros tours necesita un número de pasajeros,<br class="hidden-xs">
+                        de lo contrario <span class="harbell fontSize1-5em">M</span><span class="channel">exi</span>CoolTour&reg; se reserva el derecho de cancelar dicho tour.
                     </p>
                 </div>
             </div>
