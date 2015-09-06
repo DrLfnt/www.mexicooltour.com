@@ -33,7 +33,7 @@
         ,:i                                                                                      ,,         ,                
 
 /* Creator */
-	UX & UI, Front End & Designer, Growth Hacker: Argenis Oldair Palacios Escobar A.K.A. Dr. Lfnt
+	UX & UI Designer, Front End & Designer, Growth Hacker: Argenis Oldair Palacios Escobar A.K.A. Dr. Lfnt
 	Contact: argenis [at] disain.co | Dr.Lfnt [at] gmail.com
 	Twitter: @DrLfnt
 	From: Mexico city, Mexico
