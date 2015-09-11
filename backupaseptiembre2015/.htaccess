@@ -1,0 +1,4 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mexicooltour\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mexicooltour\.com$
