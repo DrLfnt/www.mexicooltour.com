@@ -34,18 +34,18 @@
 
 /* Creator */
 	UX & UI, Front End & Designer, Growth Hacker: Argenis Oldair Palacios Escobar A.K.A. Dr. Lfnt
-	Contact: argenis [at] disain.co | Dr.Lfnt [at] gmail.com
+	Contact: argenis [at] disainco.com | Dr.Lfnt [at] gmail.com
 	Twitter: @DrLfnt
 	From: Mexico city, Mexico
 
 	Studio: DisainCo
-	Contact: contacto [at] disain.co
-	Url: http://disain.co/
+	Contact: contacto [at] disainco.com
+	Url: http://disainco.com/
 	Twitter: @DisainCo
 	From: Mexico city, Mexico
 
 /* SITE */
-	Last update: 07/05/2015
+	Last update: 10/09/2015
 	Language: Español / English / Portuguese
 	Standars: HTML5, CSS3, JavaScript.
 	Components: Responsive Design, jQuery, MySQL.
