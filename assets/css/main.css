@@ -1670,6 +1670,12 @@
 	}
 
 	.center {
+		text-align: center !important;
+	}
+
+	.disclaimer {
+		color: #999;
+		font-size: 0.8em;
 		text-align: center;
 	}
 
