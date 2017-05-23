@@ -1,0 +1,11 @@
+	jorge@mexicooltour.com
+	jorgemexicooltour
+
+
+	Wordpress
+	
+	Base de datos
+	mexicool_wpdb
+	
+	Usuario
+	administrador mexicooltour.com
